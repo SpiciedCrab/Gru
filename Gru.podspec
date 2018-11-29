@@ -30,8 +30,8 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'Gru/**/**/*'
-  s.preserve_paths = ["Gru/Scripts/Lint/swiftlint.yml", "Gru/Scripts/Lint/swift-lint.sh"]
+  s.source_files = 'Gru/Classes/**/*'
+  s.preserve_paths = 'Gru/Scripts/Lint/*'
   s.swift_version = '4.2'
   # s.resource_bundles = {
   #   'Gru' => ['Gru/Assets/*.png']
