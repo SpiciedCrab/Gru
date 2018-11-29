@@ -32,6 +32,7 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'Gru/**/**/*'
   s.preserve_paths = ["Gru/Scripts/Lint/swiftlint.yml", "Gru/Scripts/Lint/swift-lint.sh"]
+  s.exclude_files = 'Gru/Scripts/**'
   
   # s.resource_bundles = {
   #   'Gru' => ['Gru/Assets/*.png']
