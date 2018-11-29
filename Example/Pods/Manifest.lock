@@ -1,0 +1,16 @@
+PODS:
+  - Gru (0.1.0)
+
+DEPENDENCIES:
+  - Gru (from `../`)
+
+EXTERNAL SOURCES:
+  Gru:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Gru: ece5acc6b182cf7745d5006bfb93203653368493
+
+PODFILE CHECKSUM: fedf1475b5610b2e502442a87bd964c30c519de6
+
+COCOAPODS: 1.5.3
