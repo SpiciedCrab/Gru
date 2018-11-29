@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Gru'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'Father for all childrens'
 
 # This description is used to generate tags and improve search results.
@@ -22,16 +22,14 @@ TODO: Add long description of the pod here.
                        DESC
 
   s.homepage         = 'https://github.com/SpiciedCrab/Gru'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'magic_harly@hotmail.com' => 'magic_harly@hotmail.com' }
   s.source           = { :git => 'https://github.com/SpiciedCrab/Gru.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'Gru/Classes/**/*'
-  s.preserve_paths = 'Gru/Scripts/Lint/*'
+  s.preserve_paths = ["Gru/Scripts/Lint/.swiftlint.yml"]
   s.swift_version = '4.2'
   # s.resource_bundles = {
   #   'Gru' => ['Gru/Assets/*.png']
