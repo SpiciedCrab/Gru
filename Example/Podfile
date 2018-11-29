@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Gru_Example' do
+  pod 'Gru', :path => '../'
+
+  target 'Gru_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
