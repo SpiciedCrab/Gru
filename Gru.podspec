@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Gru'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'Father for all childrens'
 
 # This description is used to generate tags and improve search results.
@@ -29,7 +29,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'Gru/Classes/**/*'
-  s.preserve_paths = ["Gru/Scripts/Lint/.swiftlint.yml","Gru/Scripts/Lint/swift-lint.yml"]
+  s.preserve_paths = ["Gru/Scripts/Lint/.swiftlint.yml","Gru/Scripts/Lint/swift-lint.sh"]
   s.swift_version = '4.2'
   # s.resource_bundles = {
   #   'Gru' => ['Gru/Assets/*.png']
