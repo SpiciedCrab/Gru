@@ -37,4 +37,3 @@ public extension Gruable {
 extension NSObject: Gruable {
 
 }
-
